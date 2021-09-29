@@ -5,37 +5,40 @@
 //length사용    length불가
 
 
-let ar = [
-    {
-        n:"호랑이",
-        a:"10",
-    },
-    {
-        n:"코끼리",
-        a:"20",
-    },
-    {
-        n:"독수리",
-        a:"30",
-    },
+// let ar = [
+//     {
+//         n:"호랑이",
+//         a:"10",
+//     },
+//     {
+//         n:"코끼리",
+//         a:"20",
+//     },
+//     {
+//         n:"독수리",
+//         a:"30",
+//     },
 
-];
-console.log(ar);
+// ];
+// console.log(ar);
 
-for(const key in ar){
-    let e = ar[key];
-    console.log(e.n, e.a);
-    console.log(e['n'], e['a']);
-}
-let sum = 0;
-for (const v of ar){
-    sum += v.a;
-}
-console.log(sum);
+// for(const key in ar){
+//     let e = ar[key];
+//     console.log(key);
+//     console.log(e.n, e.a);
+//     console.log(e['n'], e['a']);
+// }
+// let sum = 0;
+// for (const v of ar){
+//     sum += v.a;
+// }
+// console.log(sum);
 
-let br = ar.map((v,k) => v.n + "");
-console.log();
+// let br = ar.map((v,k) => v.n + "");
+// console.log();
 
+
+// let crr = ar.map((n,m) => console.log());
 
 
 // // index받기
@@ -490,7 +493,7 @@ console.log();
 //     console.log('3');    
 // });
 // //방법 3
-// f1(() =>{
+// f1(() =>{    qt
 //     console.log('4');    
 // });
 
